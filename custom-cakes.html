@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Custom Cakes — The Krum Kartel</title>
+<meta content="Commission a custom celebration cake from The Krum Kartel — tiers, pricing, and an easy commission request form." name="description"/>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="index.html">THE KRUM <p>KARTEL</p><small>Est. 2025 — Hatfield</small></a>
+<nav aria-label="Primary" id="siteNav">
+<a href="index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a aria-current="page" href="custom-cakes.html">Custom Cakes</a>
+<a href="about.html">About</a>
+<a href="blog.html">Recipes</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<a href="#commission-form">Commission a Cake</a>
+<button aria-expanded="false" aria-label="Toggle menu" id="navToggle">☰</button>
+
+</header>
+<section>
+<div>
+<div >Custom Commissions</div>
+<h1>Cakes Made to Order</h1>
+<p>From an intimate birthday to a full wedding showpiece — every custom cake starts with a conversation and ends exactly how you imagined it.</p>
+</div>
+</section>
+
+<!-- Tiers -->
+<section>
+
+<div>Choose a Starting Point</div>
+<h2>Commission Tiers</h2>
+<p >Every tier below is a starting price — final quotes depend on flavour, size, and design complexity.</p>
+
+<h3>The Starter Batch</h3>
+
+<div>R 650<small>Starting price</small></div>
+<ul>
+<li>Single tier, naked or semi-naked finish</li>
+<li>Serves 10–15 guests</li>
+<li>Choice of 3 signature flavours</li>
+<li>Simple fresh floral or fruit finish</li>
+<li>3-day lead time</li>
+</ul>
+<a href="#commission-form">Apply for This Tier</a>
+</div>
+
+<div>
+<h3>The Double Take</h3>
+<div>R 1,450<small>Starting price</small></div>
+<ul>
+<li>Two-tier decorated cake</li>
+<li>Serves 25–35 guests</li>
+<li>Custom colour palette &amp; finish</li>
+<li>Fondant or buttercream, topper included</li>
+<li>5-day lead time</li>
+</ul>
+<a href="#commission-form">Apply for This Tier</a>
+</div>
+
+<div>
+<h3>The Grand Kartel</h3>
+<div>R 2,800<small>Starting price</small></div>
+<ul>
+<li>Three or more tier showpiece</li>
+<li>Serves 50+ guests</li>
+<li>Full custom design consultation</li>
+<li>Sugar flowers &amp; hand-piped detail</li>
+<li>Delivery &amp; on-site setup included</li>
+<li>10-day lead time</li>
+</ul>
+<a href="#commission-form">Apply for This Tier</a>
+</div>
+</div>
+</div>
+</section>
+<!-- How it works -->
+
+<section >
+<div >The Process</div>
+
+<h2>How a Commission Works</h2>
+
+<p>1</p>
+<h4>Enquire</h4>
+<p>Submit the form below with your event date, guest count, and vision.</p>
+
+<p>2</p>
+
+<h4>Consult</h4>
+<p>A 15-minute call or in-store tasting to lock in flavour and design.</p>
+
+
+<p>3</p>
+
+<h4>Confirm</h4>
+<p>A 50% deposit secures your date and starts production planning.</p>
+
+
+<p>4</p>
+
+<h4>Celebrate</h4>
+<p>We deliver and set up — you take all the credit at the party.</p>
+</section>
+
+<!-- Commission form -->
+<section  id="commission-form">
+<div>Apply for a Custom Commission</div>
+<h2>Request a Quote</h2>
+<p>Tell us about your event — we'll follow up within one business day to schedule your consult.</p>
+<form aria-label="Custom cake commission request"  data-demo-form="" data-success-msg="Commission request received — the Kartel will follow up within one business day.">
+<table border="0">
+    <tr>  
+        <td><label for="cc-name">Full Name</label></td>
+        <td><input id="cc-name" name="name" required="" type="text"/></td>
+    </tr>
+
+    <tr>
+        <td><label for="cc-email">Email Address</label></td>
+        <td><input id="cc-email" name="email" required="" type="email"/></td>
+    </tr>
+
+    <tr>
+        <td><label for="cc-phone">Phone Number</label></td>
+        <td><input id="cc-phone" name="phone" required="" type="tel"/></td>
+    </tr>
+
+    <tr>
+        <td><label for="cc-date">Event Date</label></td>
+        <td><input id="cc-date" name="event_date" required="" type="date"/></td>
+    </tr> 
+
+    <tr>
+        <td><label for="cc-tier">Preferred Tier</label></td>
+        <td><select id="cc-tier" name="tier" required="">
+            <option disabled="" selected="" value="">Select a tier</option>
+            <option value="starter">The Starter Batch — from R650</option>
+            <option value="double">The Double Take — from R1,450</option>
+            <option value="grand">The Grand Kartel — from R2,800</option>
+            <option value="unsure">Not sure yet</option>
+            </select></td>
+    </tr>
+
+    <tr>
+       <td><label for="cc-guests">Guest Count</label></td>
+       <td><input id="cc-guests" min="1" name="guests" required="" type="number"/></td>
+    </tr>
+
+    <tr>
+       <td><label for="cc-flavor">Flavour Preference</label></td>
+       <td><select id="cc-flavor" name="flavor">
+           <option value="">Select a flavour (optional)</option>
+           <option>Vanilla Bean</option>
+           <option>Chocolate Fudge</option>
+           <option>Red Velvet</option>
+           <option>Lemon &amp; Poppyseed</option>
+           <option>Carrot &amp; Pecan</option>
+           <option>Not sure yet</option>
+           </select></td>
+    </tr>
+
+    <tr>
+       <td><label for="cc-message">Tell Us About Your Vision</label></td>
+       <td><textarea id="cc-message" name="message" placeholder="Colours, theme, dietary requirements, anything else we should know..."></textarea></td>
+    </tr>
+<button type="submit">Submit Commission Request</button>
+<div role="status"></div>
+</table>
+</form>
+
+</section>
+<div>THE KRUM <p>KARTEL</p></div>
+<p>Artisan bakery in the heart of hatfield. Handcrafted daily, no shortcuts, no compromises.</p>
+</div>
+<h4>Sitemap</h4>
+<ul>
+<li><a href="index.html"><img src="home.gif" alt="Home icon" class="sitemap-icon">Home</a></li>
+<li><a href="menu.html"><img src="shopping-cart.gif" alt="Menu icon" class="sitemap-icon">Menu</a></li>
+<li><a href="custom-cakes.html"><img src="cake.gif" alt="Custom Cakes icon" class="sitemap-icon">Custom Cakes</a></li>
+<li><a href="about.html"><img src="pin.gif" alt="About Us icon" class="sitemap-icon">About Us</a></li>
+<li><a href="blog.html"><img src="calendar.gif" alt="Recipes icon" class="sitemap-icon">Recipes</a></li>
+<li><a href="contact.html"><img src="email.gif" alt="Contact icon" class="sitemap-icon">Contact</a></li>
+</ul>
+
+
+<h4>Visit Us</h4>
+<ul>
+<li><a href="contact.html"><br/>Hatfield, Pretoria</a></li>
+<li><a href="tel:+27112345678">011 234 5678</a></li>
+<li><a href="mailto:hello@krumkartel.co.za">hello@krumkartel.co.za</a></li>
+</ul>
+</div>
+
+<h4>Join the Kartel</h4>
+<form aria-label="Footer newsletter signup"  data-demo-form="" data-success-msg="You're in.">
+<input aria-label="Email address" placeholder="Email address" required="" type="email"/>
+<button type="submit">Subscribe</button>
+<div role="status"></div>
+</form>
+
+
+
+<p>© <p>2026</p> The Krum Kartel. All crumbs reserved.</p>
+
+<a href="contact.html">Privacy</a>
+<a href="contact.html">Terms</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body>
+</html>
